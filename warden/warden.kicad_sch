@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "897c6b49-8e32-4c95-887e-2fceb8f0266f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 19.05 22.86)
+		(size 58.42 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "525d8cea-b784-4178-95b7-d01aa5db052f")
+		(property "Sheetname" "Alimentation"
+			(at 19.05 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alimentation.kicad_sch"
+			(at 19.05 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "warden"
+				(path "/897c6b49-8e32-4c95-887e-2fceb8f0266f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 24.13)
+		(size 62.23 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6d59fecf-f17a-4941-9838-4923d910c573")
+		(property "Sheetname" "Nordic_NFC"
+			(at 81.28 23.4184 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nordic_nfc.kicad_sch"
+			(at 81.28 50.1146 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "warden"
+				(path "/897c6b49-8e32-4c95-887e-2fceb8f0266f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 24.13)
+		(size 57.15 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ebd706c9-37fa-49bd-ad0f-b39bd7dec884")
+		(property "Sheetname" "Peripheriques"
+			(at 144.78 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripheriques.kicad_sch"
+			(at 144.78 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "warden"
+				(path "/897c6b49-8e32-4c95-887e-2fceb8f0266f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

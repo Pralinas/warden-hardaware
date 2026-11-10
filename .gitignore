@@ -1,0 +1,30 @@
+# ── KiCad : fichiers temporaires, sauvegardes, verrous ──────────────
+*-backups/
+*.bak
+*.bck
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+\#auto_saved_files#
+*.lck
+~*.lck
+fp-info-cache
+
+# Préférences locales d'affichage (calques visibles, zoom…) — propres à chaque poste
+*.kicad_prl
+
+# ── Sorties de fabrication (régénérables) ───────────────────────────
+# Retirer ces lignes si tu veux versionner une release figée.
+gerbers/
+fabrication/
+production/
+*.gbr
+*.drl
+
+# ── Éditeurs / OS ───────────────────────────────────────────────────
+.history/
+.vscode/*
+!.vscode/settings.json
+Thumbs.db
+[Dd]esktop.ini
